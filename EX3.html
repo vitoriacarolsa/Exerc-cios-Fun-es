@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+</head>
+<body>
+    <script>
+
+        function calcularMeuLanche () {
+            var idadeAtual=prompt ("Qual a sua idade atual?");
+            var idadeMax=prompt ("Até qual idade você deseja saber quantos laches será necessário?")
+            var quantidadeLanches=prompt ("Qual a quantidade de lanches consumida por dia?");
+            var total=(idadeMax-idadeAtual)*365;
+            var totalLanche= total*quantidadeLanches;
+
+        alert ("Você precisará de " + totalLanche+ " lanches, para durar até os " +  idadeMax + " anos.")
+        }
+        calcularMeuLanche();
+
+
+
+    </script>
+</body>
+</html>

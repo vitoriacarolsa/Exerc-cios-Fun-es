@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 5</title>
+</head>
+<body>
+    <script>
+        
+   var escolha = parseInt(prompt("Qual a temperatura você quer converter? 1-) Celsius 2-) Fahrenheit"));
+
+    switch(escolha){
+    case 1: 
+    celsius(); 
+    break
+    case 2: 
+    fahrenheit(); 
+    break
+}
+        function celsius(){
+        var temperaturaC=parseInt (prompt("Qual a temperatura em celsius?"));
+        var converteC=(temperaturaC*1.8)+32;
+        alert ("A temperatura em fahrenheit é " + converteC);
+ 
+}
+
+        function fahrenheit(){
+        var temperaturaF=parseInt (prompt("Qual a temperatura em fahrenheit?"));
+        var converteF=temperaturaF=(temperaturaF-32)/1.8;
+        alert ("A temperatura em Celsius é " + converteF);
+}
+</script>
+</body>
+</html>

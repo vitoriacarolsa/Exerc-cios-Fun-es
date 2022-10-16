@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios 2</title>
+</head>
+<body>
+    <script>
+
+function inicio() {
+					
+var escolha = parseInt(prompt('Calcular o ano do seu PET em humanos: 1-) Cachorro 2-) Gato 3-) Coelho' ));
+                    
+switch (escolha) {                   
+case 1:
+cachorro();
+break;                    
+case 2:
+gato();
+break;                   
+case 3:
+coelho();
+break;
+
+}
+}
+
+function cachorro () {
+    var idade=prompt("Qual a idade do seu cachorro(a)?");
+    var total=idade*5;
+    var nomeC=prompt("Qual o nome do seu cachorro (a)?")
+    alert (nomeC +" possui " + total +" em anos humanos!" + "Os cachorros tem uma relação de 5 anos para cada 1 humano.")
+
+}
+inicio();
+
+function gato() {
+    var idadeG=prompt("Qual a idade do seu gato(a)?");
+    var totalG=idadeG*4;
+    var nomeG=prompt("Qual o nome do seu gato (a)?")
+    alert  (nomeG+ "possui " +totalG+ " em anos humanos!" + "Os gatos tem uma relação de 4 anos para cada 1 humano.")
+}
+
+function coelho() {
+    var idadeC=prompt("Qual a idade do seu coelho (a)?")
+    var totalC=idadeC*9;
+    var nomeCo=prompt ("Qual o nome do seu coelho (a)?")
+    alert ( nomeCo+ " possui " + totalC+ " em anos humanos!" + "Os coelhos tem uma relação de 9 anos para cada 1 humano.")
+}
+      
+
+
+
+
+</script>
+    
+</body>
+</html>
